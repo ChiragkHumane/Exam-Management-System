@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <!-- <link href="style.css" rel="stylesheet" type="text/css" /> -->
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="footer.css" rel="stylesheet" type="text/css" />
+  <link href="header.css" rel="stylesheet" type="text/css" />
+  <link href="gender.css" rel="stylesheet" type="text/css" />
+  <link href="login.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="login.html">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <img src="logo.png" alt="">
+          <h2><span>E</span>xamPortal</h2>
+        </div>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="FAQ.html">FAQ</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+  <div class="container_01 flex">
+    <div class="facebook-page flex">
+      <div class="text">
+        <h1>Exam Form Manegment Tool</h1>
+        <p>Take control of your exams </p>
+        <p>and achieve your goals</p>
+      </div>
+      <div class="login_b
+          ox">
+        <form action="action.php">
+          <h2>Create New Account</h2>
+          <br>
+          <input type="text" placeholder="Enter Full Name" required>
+          <input type="date" id="birthday" name="birthday" required>
+          <form action="action.php">
+             <div class="gender-container">
+               <label for="gender">Gender:</label>
+  
+               <input type="radio" id="male" name="gender" value="male">
+               <label for="male">Male</label>          
+
+               <input type="radio" id="female" name="gender" value="female">
+               <label for="female">Female</label>
+
+              <input type="radio" id="other" name="gender" value="other">
+              <label for="other">Other</label>
+            </div>
+
+          <input type="email" placeholder="Email or phone number" required>
+          <input type="password" placeholder="Create Password" required>          
+          <input type="password" placeholder="Confirm Password" required>
+
+          <div class="gender-container">
+                <input type="checkbox" id="myCheckbox" name="newsletter">
+               <label for="myCheckbox">Agree terms and conditions</label>
+               
+          </div>
+
+          <div class="link">
+            <button type="submit" class="login" onclick="window.location.href='dashboard.html';">Submit</button>
+          </div>
+          <hr>
+
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="script.js"></script>
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>.

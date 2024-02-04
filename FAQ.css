@@ -1,0 +1,38 @@
+
+
+
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.faq-section {
+    margin-bottom: 20px;
+}
+
+.question {
+    cursor: pointer;
+    background-color: lightblue;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.answer {
+    display: none;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 20px;
+    line-height: /1.2;
+    font-family:system-ui;
+}
+
+/* Style for the active (open) answer */
+.answer.active {
+    display: block;
+}
